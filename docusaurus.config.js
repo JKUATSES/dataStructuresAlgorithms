@@ -1,80 +1,81 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const math = require('remark-math');
-const katex = require('rehype-katex');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const math = require("remark-math");
+const katex = require("rehype-katex");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'http://64.227.107.248:3000',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  title: "JKUAT SES Data Structures and Algorithms",
+  tagline: "JKUAT SES PROJECTS we build cool stuff",
+  url: "http://localhost:3000", //https://ses.jkuat.ac.ke/dsa
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon_io/favicon.ico",
+  organizationName: "JKUATSES", // Usually your GitHub org/user name.
+  projectName: "dataStructuresAlgorithms", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: "JKUAT SES Data Structures and Algorithms",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "JKUAT SES Data Structures and Algorithms Logo",
+        src: "img/favicon_io/sesicon.svg",
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
+          type: "doc",
+          docId: "intro",
+          position: "left",
+          label: "Tutorial",
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: "/blog", label: "Blog", position: "left" },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/JKUATSES/dataStructuresAlgorithms",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: "Tutorial",
+              to: "/docs/intro",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: "GitHub",
+              href: "https://github.com/JKUATSES",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: "LinkedIn",
+              href:
+                "https://ke.linkedin.com/company/jkuat-society-of-engineering-students",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: "Twitter",
+              href: "https://twitter.com/jkuat_ses",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: "Blog",
+              to: "/blog",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: "GitHub",
+              href: "https://github.com/JKUATSES",
             },
           ],
         },
@@ -88,33 +89,34 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-		remarkPlugins: [math],
-		rehypePlugins: [katex],
-          sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            "https://github.com/JKUATSES/dataStructuresAlgorithms",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            "https://github.com/JKUATSES/dataStructuresAlgorithms",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
   ],
-	stylesheets: [
+  stylesheets: [
     {
-        href: "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css",
-        integrity: "sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc",
-        crossorigin: "anonymous",
+      href: "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css",
+      integrity:
+        "sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc",
+      crossorigin: "anonymous",
     },
-],
+  ],
 };
