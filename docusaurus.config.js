@@ -7,7 +7,7 @@ const katex = require("rehype-katex");
 module.exports = {
   title: "JKUAT SES Data Structures and Algorithms",
   tagline: "JKUAT SES PROJECTS we build cool stuff",
-  url: "http://localhost:3000", //https://ses.jkuat.ac.ke/dsa
+  url: "https://jkuatses.github.io/dataStructuresAlgorithms/build/index.html", //https://ses.jkuat.ac.ke/dsa
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
