@@ -11,14 +11,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [12.x, 14.x, 16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
     - uses: actions/checkout@v2
     - run: cd main
@@ -27,4 +20,5 @@ jobs:
         cmd: install # will run `yarn install` command
     - uses: borales/actions-yarn@v2.3.0
       with:
+        cmd: cd main
         cmd: build # will run `yarn build` command
