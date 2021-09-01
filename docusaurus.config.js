@@ -7,13 +7,14 @@ const katex = require("rehype-katex");
 module.exports = {
   title: "JKUAT SES Data Structures and Algorithms",
   tagline: "JKUAT SES PROJECTS we build cool stuff",
-  url: "https://jkuatses.github.io/dataStructuresAlgorithms/build/index.html", //https://ses.jkuat.ac.ke/dsa
-  baseUrl: "/",
+  url: "https://jkuatses.github.io", //https://ses.jkuat.ac.ke/dsa
+  baseUrl: "/dataStructuresAlgorithms/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon_io/favicon.ico",
   organizationName: "JKUATSES", // Usually your GitHub org/user name.
   projectName: "dataStructuresAlgorithms", // Usually your repo name.
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: "JKUAT SES Data Structures and Algorithms",
