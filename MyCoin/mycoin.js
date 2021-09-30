@@ -68,14 +68,16 @@ class Blockchain {
    * more fucntions should be added to validate the mining process using the difficulty provided 
    */
 }
-
+/*
+*This section tests the blockchain functions by adding blocks and varifying authenticity 
+*/
 let mycoin = new Blockchain();
 
 console.log("Adding new blocks....");
 mycoin.addNewBlock(
   block1=new BlockCrypto(1, "06/04/2021", {
-    sender: "Rabin Yitzac",
-    recipient: "Loyd Eve",
+    sender: "James Kinywa",
+    recipient: "Eve Wafula",
     quantity: 20
   })
 );
