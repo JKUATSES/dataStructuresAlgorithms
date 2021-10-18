@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 
 A Binary Tree is a non-linear data structure that has a mazimum of two children for each parent. The first node of the tree is called the root node and the other other nodes are associated with one parent node.
 
-![Binary Tree](../../static/img/docs/binaryTree.jpg)
+![Binary Tree](../../static/img/docs/binaryTree.png)
 
 Each node in a binary tree has a left and right reference, and a data/value field. The data field contains the value to be stored in the node while the left and right fields contain a reference to the left and right child nodes respectively.
 
@@ -524,12 +524,12 @@ if __name__ == '__main__':
 
 ## What's next?
 
-- Check out the leet code [challenge 1](https://leetcode.com/problems/linked-list-components/).
+- Check out the leet code [challenge 1](https://leetcode.com/problems/print-binary-tree/).
 - Check out the leet code [challenge 2](https://leetcode.com/problems/design-browser-history/).
-- Check out this python [tutorial](https://realpython.com/linked-lists-python/)
-- Check out this cpp [tutorial](https://data-flair.training/blogs/linked-list-in-c-cpp/)
+- Check out this python [tutorial](https://www.geeksforgeeks.org/binarytree-module-in-python/)
+- Check out this cpp [tutorial](https://www.geeksforgeeks.org/binary-tree-set-1-introduction/)
 - Check out this matlab [tutorial](https://uk.mathworks.com/help/matlab/matlab_oop/example-implementing-linked-lists.html)
-- Find inspirations from [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
+- Find inspirations from [Wikipedia](https://en.wikipedia.org/wiki/Binary_tree)
 - Get involved in the [JKUAT SES Community](https://github.com/JKUATSES/dataStructuresAlgorithms/)
 
 Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/JKUATSES/dataStructuresAlgorithms/issues)
