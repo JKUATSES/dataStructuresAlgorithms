@@ -13,7 +13,7 @@ A Binary Tree is a non-linear data structure that has a mazimum of two children 
 
 Each node in a binary tree has a left and right reference, and a data/value field. The data field contains the value to be stored in the node while the left and right fields contain a reference to the left and right child nodes respectively.
 
-![Binary Tree](../../static/img/docs/binaryTree.png)
+![Binary Tree](../../static/img/docs/binaryTree.jpg)
 
 __credit https://www.upgrad.com/blog/5-types-of-binary-tree/__
 
